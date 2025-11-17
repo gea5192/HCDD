@@ -30,13 +30,14 @@ jobs:
 
       - name: Build and test with Maven
         run: mvn -B clean test
+        working-directory: gameflix-finalproject
 
       - name: Package application
         run: mvn -B package -DskipTests
+        working-directory: gameflix-finalproject
 
       - name: Upload jar artifact
         uses: actions/upload-artifact@v4
         with:
           name: springboot-jar
-          path: |
-            target/*.jar
+          path: gameflix-finalproject/target/*.jar
