@@ -1,0 +1,6 @@
+com\example\gameflixfinalproject\controller\AuthController.class
+com\example\gameflixfinalproject\repository\UserRepository.class
+com\example\gameflixfinalproject\GameflixFinalprojectApplication.class
+com\example\gameflixfinalproject\model\User.class
+com\example\gameflixfinalproject\service\UserService.class
+com\example\gameflixfinalproject\config\SecurityConfig.class
